@@ -7,6 +7,6 @@
  */
 int main (void)
 {
-      printf("%d", _putchar);
+      printf("%d\n", _putchar);
       return (0);
 }      
