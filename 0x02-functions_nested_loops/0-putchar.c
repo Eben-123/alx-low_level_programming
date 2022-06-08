@@ -9,11 +9,11 @@
 
 int main(void)
 {
-char *sh = "_putchar";
-while (*sh)
+char *eh = "_putchar";
+while (*eh)
 {
-_putchar(*sh);
-sh++;
+_putchar(*eh);
+eh++;
 }
 _putchar('\n');
 
