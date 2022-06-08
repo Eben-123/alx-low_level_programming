@@ -4,7 +4,7 @@
  * _isalpha - check for alphabet character
  * @c : character to check
  * Return : 1 if lower or uppercase, 0 if not alphabet character
- */
+ **/
 
 int _isalpha(int c)
 {
@@ -18,3 +18,4 @@ int _isalpha(int c)
 	}
 	_putchar('\n');
 }
+
