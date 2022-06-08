@@ -1,9 +1,12 @@
+#include <unistd.h>
 #include "main.h"
+
 /**
- * main-Entry point
- *
- * Retun: Always 0 (success)
+ * main- function prints _putchar
+ * A program which prints _putchar followed by a new line
+ * Retun: 0
  */
+
 int main(void)
 {
      char *sh = "_putchar";
