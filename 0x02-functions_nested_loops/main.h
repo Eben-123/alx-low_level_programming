@@ -1,22 +1,18 @@
-#include <file>
-#include "file"
-char *test (void);
-int x;
-#include "header.h"
+#ifndef MAIN_H
+#define MAIN_H
 
-int main (void) {
-   puts (test ());
-}
+char _putchar(char c);
+void print_alphabet(void);
+void print_alphabet_x10(void);
+int _islower(int c);
+int _isalpha(int c);
+int print_sign(int n);
+int _abs(int);
+int print_last_digit(int nld);
+void jack_bauer(void);
+void times_table(void);
+int add(int one, int two);
+void print_to_98(int n);
+void print_times_table(int n);
 
-int x;
-char *test (void);
-
-int main (void) {
-   puts (test ());
-}
-#ifndef HEADER_FILE
-#define HEADER_FILE
-
-the entire header file file
-
-#endif
+#endif /* MAIN_H */
