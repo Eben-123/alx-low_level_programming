@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * print_times_table - prints the times table up to the integer input
@@ -25,15 +25,13 @@ void print_times_table(int n)
 				}
 				else if (c < 10)
 				{
-					_putchar(' ');
-				       	_putchar(' ');
+					_putchar(' '); _putchar(' ');
 					_putchar('0' + f);
 				}
 				else if (c < 100)
 				{
 					_putchar(' ');
-					_putchar('0' + e); 
-					_putchar('0' + f);
+					_putchar('0' + e); _putchar('0' + f);
 				}
 				else
 				{
@@ -43,8 +41,7 @@ void print_times_table(int n)
 				}
 				if (b < n)
 				{
-					_putchar(','); 
-					_putchar(' ');
+					_putchar(','); _putchar(' ');
 				}
 				else
 					_putchar('\n');
