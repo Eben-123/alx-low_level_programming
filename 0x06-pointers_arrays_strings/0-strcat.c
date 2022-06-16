@@ -1,20 +1,23 @@
 #include "main.h"
 
 /**
- * _memset - fills memory with a constant byte
- * @s: memory space to be filled
- * @b: byte to fill with
- * @n: number of spaces to fill
+ * _strcat - appends src to the dest string
+ * @dest: string to append by src
+ * @src: string to append to dest
  *
- * Return: pointer to memory area s
+ * Return: address of dest
  */
 char *_strcat(char *dest, char *src)
 {
-	char i;
+	int i, j;
 
-	for (i = 0; i < n; i++)
+	i = j = 0;
+	while (*(dest + i))
+		i++;
+	while ((*(dest + i) = *(src + j)))
 	{
-		*(s + i) = b;
+		i++;
+		j++;
 	}
-	return (s);
+	return (dest);
 }
